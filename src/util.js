@@ -5,7 +5,7 @@ const execa = require("execa");
 function formatTextWithElmFormat(text) {
   return execa.sync("elm-format", ["--stdin"], {
     input: text,
-    preferLocal: true,
+    preferLocal: false,
     localDir: __dirname,
     stripEof: false
   }).stdout;
