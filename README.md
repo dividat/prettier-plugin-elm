@@ -1,3 +1,10 @@
+## Fork of [prettier-plugin-elm](https://github.com/gicentre/prettier-plugin-elm)
+Why?
+We want to use `elm-format` provided by `nix` instead of the one that `prettier-plugin-elm` installs locally.
+This is not currently configurable in this package, hence the fork.
+Related:
+https://github.com/gicentre/prettier-plugin-elm/issues/1
+
 <p align="center">
   &nbsp;&nbsp;<img alt="Prettier"
   src="https://cdn.rawgit.com/prettier/prettier-logo/master/images/prettier-icon-light.svg">&nbsp;&nbsp;
