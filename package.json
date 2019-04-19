@@ -38,7 +38,6 @@
     "sleep-promise": "^6.0.0"
   },
   "dependencies": {
-    "elm-format": "0.7.0-exp",
     "execa": "^0.10.0",
     "make-dir": "^1.3.0",
     "object-hash": "^1.3.0",
